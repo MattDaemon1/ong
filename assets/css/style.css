@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-logo {
+    width: 50px;
+}
+
+.text-white a {
+    color: white;
+}
+
+.text-white a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
