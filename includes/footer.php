@@ -15,9 +15,9 @@
             </div>
             <div class="col-md-4">
                 <h5>Suivez-nous</h5>
-                <a href="#" class="text-white mr-2"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="text-white mr-2"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/votrepage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/votrecompte" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@votrecompte" target="_blank"><i class="fab fa-tiktok"></i></a>
             </div>
         </div>
     </div>
