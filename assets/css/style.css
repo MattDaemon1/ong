@@ -59,6 +59,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .hero h1 {
@@ -85,3 +86,22 @@ body {
     margin-top: 1rem;
 }
 
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+b {
+    font-weight: 700;
+}
