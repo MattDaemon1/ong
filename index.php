@@ -6,15 +6,16 @@ include __DIR__ . '/includes/header.php';
 ?>
 <main>
     <!-- Hero Section avec image de fond et bouton "Faire un don" -->
-    <section class="hero-section" style="background-image: url('./assets/img/paysage2.jpg');">
-        <div class="container">
-            <h1>Bienvenue sur ONG Allo la Terre</h1>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Aidez-nous à faire la différence</h1>
             <p>Rejoignez-nous dans notre mission pour aider ceux qui en ont le plus besoin.</p>
+        
+            <a href="#" class="btn btn-primary">Faire un don</a>
         </div>
-        <div class="container d-flex justify-content-center">
-            <a href="projets.php" class="btn btn-primary">Faire un don</a>
-        </div>
-    </section>
+    </div>
+
 
     <!-- Section À Propos -->
     <section class="about-section">
@@ -35,7 +36,7 @@ include __DIR__ . '/includes/header.php';
                 <!-- Ici cartes de projets -->
             </div>
             <div class="container d-flex justify-content-center">
-            <a href="projets.php" class="btn btn-primary">Voir tous les projets</a>
+                <a href="projets.php" class="btn btn-primary">Voir tous les projets</a>
             </div>
         </div>
     </section>
