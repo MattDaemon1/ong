@@ -29,3 +29,26 @@ window.addEventListener("scroll", function(){
     var scrolled = window.pageYOffset;
     parallax.style.transform = 'translateY('+ scrolled * -0.5 + 'px)';
 });
+
+$(document).ready(function(){
+    $("#contactForm").submit(function(e){
+        e.preventDefault(); // empêche l'envoi du formulaire
+
+        let valid = true;
+        
+        // Vérifier chaque champ pour s'assurer qu'ils sont bien remplis
+        $("#contactForm input, #contactForm textarea").each(function(){
+            if($(this).val() === "") {
+                valid = false;
+            }
+        });
+
+        if(valid) {
+            $("#successMessage").show();
+            $("#errorMessage").hide();
+        } else {
+            $("#errorMessage").show();
+            $("#successMessage").hide();
+        }
+    });
+});
