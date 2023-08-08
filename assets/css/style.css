@@ -105,3 +105,11 @@ section p {
 b {
     font-weight: 700;
 }
+
+.contact-hero {
+    height: 50vw;
+    background-image: url('../img/paysage3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
