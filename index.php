@@ -12,7 +12,7 @@ include __DIR__ . '/includes/header.php';
             <h1>Aidez-nous à faire la différence</h1>
             <p>Rejoignez-nous dans notre mission pour aider ceux qui en ont le plus besoin.</p>
 
-            <a href="#" class="btn btn-primary">Faire un don</a>
+            <a href="#" class="btn btn-primary animated-button">Faire un don</a>
         </div>
     </div>
 
@@ -24,7 +24,7 @@ include __DIR__ . '/includes/header.php';
             <p><b>ALLO LA TERRE</b> est une organisation non gouvernementale dédiée à la connexion des donateurs généreux avec <b>des projets innovants et durables pour notre planète</b>. Nous sommes convaincus que chacun d'entre nous a le pouvoir de faire une différence.</br> C'est pourquoi nous avons créé une plateforme pour faciliter cette union, transformant l'intention en action. En soutenant des initiatives variées allant de la conservation des ressources à l'éducation environnementale, nous avons pour ambition de contribuer activement à la préservation de la Terre.</br> <b>Rejoignez-nous et ensemble, faisons la différence pour notre monde.</b></p>
         </div>
         <div class="container d-flex justify-content-center">
-            <a href="about.php" class="btn btn-primary">En savoir plus</a>
+            <a href="about.php" class="btn btn-primary animated-button">En savoir plus</a>
         </div>
     </section>
 
@@ -36,7 +36,7 @@ include __DIR__ . '/includes/header.php';
                 <!-- Ici cartes de projets -->
             </div>
             <div class="container d-flex justify-content-center">
-                <a href="projets.php" class="btn btn-primary">Voir tous les projets</a>
+                <a href="projets.php" class="btn btn-primary animated-button">Voir tous les projets</a>
             </div>
         </div>
     </section>
